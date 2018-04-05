@@ -4,13 +4,6 @@
     xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="collective.vuejs">
 
-  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
-  <include package="z3c.jbot" file="meta.zcml" />
-  <browser:jbot
-      directory="overrides"
-      layer="collective.vuejs.interfaces.ICollectiveVuejsLayer"
-      />
-
   <!-- Publish static files -->
   <plone:static
       name="collective.vuejs"
