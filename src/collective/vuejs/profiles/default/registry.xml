@@ -1,3 +1,20 @@
 <?xml version="1.0"?>
 <registry>
+  <records prefix="plone.resources/vuejs-core"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++plone++collective.vuejs/vue.min.js</value>
+  </records>
+
+  <records prefix="plone.bundles/vuejs-core"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="resources" purge="false">
+      <element>vuejs-core</element>
+    </value>
+    <value key="jscompilation">++plone++collective.vuejs/vuejs-core-compiled.js</value>
+    <value key="csscompilation"></value>
+    <value key="last_compilation">2018-04-05 00:00:00</value>
+    <value key="compile">False</value>
+    <value key="enabled">True</value>
+  </records>
+
 </registry>
