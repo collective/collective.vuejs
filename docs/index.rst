@@ -1,0 +1,3 @@
+================collective.vuejs
+================
+User documentation
