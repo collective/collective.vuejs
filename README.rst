@@ -6,6 +6,8 @@
 collective.vuejs
 ================
 
+Integration of Vue.js into Plone.
+
 Installation
 ------------
 
